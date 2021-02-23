@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/style.css"/>
+    <title>Work Day Planner</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Planner</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container-fluid">
+      <div class="list-group">
+        <div class="row">
+          <div class="col-lg-12">
+            <a class="list-group-item list-group-item-action active list-group-item-secondary" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5>12:00 AM</h5>
+              </div>
+              <p class="mb-1" id="user-entry-00"></p>
+              <input type="text" class="form-control" placeholder="" aria-label="" id="input-00">
+              <button class="btn btn-secondary" type="button" id="button-addon-00"><span class="fa fa-edit"></span> | <span class="fa fa-save"></button>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <a class="list-group-item list-group-item-action active list-group-item-secondary" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5>1:00 AM</h5>
+              </div>
+              <p class="mb-1" id="user-entry-01"></p>
+              <input type="text" class="form-control" placeholder="" aria-label="" id="input-01">
+              <button class="btn btn-secondary" type="button" id="button-addon-01"><span class="fa fa-edit"></span> | <span class="fa fa-save"></button>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <a class="list-group-item list-group-item-action active list-group-item-secondary" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5>2:00 AM</h5>
+              </div>
+              <p class="mb-1" id="user-entry-02"></p>
+              <input type="text" class="form-control" placeholder="" aria-label="" id="input-02">
+              <button class="btn btn-secondary" type="button" id="button-addon-02"><span class="fa fa-edit"></span> | <span class="fa fa-save"></button>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <a class="list-group-item list-group-item-action active list-group-item-secondary" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5>3:00 AM</h5>
+              </div>
+              <p class="mb-1" id="user-entry-03"></p>
+              <input type="text" class="form-control" placeholder="" aria-label="" id="input-03">
+              <button class="btn btn-secondary" type="button" id="button-addon-03"><span class="fa fa-edit"></span> | <span class="fa fa-save"></button>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <a class="list-group-item list-group-item-action active list-group-item-secondary" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5>4:00 AM</h5>
+              </div>
+              <p class="mb-1" id="user-entry-04"></p>
+              <input type="text" class="form-control" placeholder="" aria-label="" id="input-04">
+              <button class="btn btn-secondary" type="button" id="button-addon-04"><span class="fa fa-edit"></span> | <span class="fa fa-save"></button>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <a class="list-group-item list-group-item-action active list-group-item-secondary" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5>5:00 AM</h5>
+              </div>
+              <p class="mb-1" id="user-entry-05"></p>
+              <input type="text" class="form-control" placeholder="" aria-label="" id="input-05">
+              <button class="btn btn-secondary" type="button" id="button-addon-05"><span class="fa fa-edit"></span> | <span class="fa fa-save"></button>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <a class="list-group-item list-group-item-action active list-group-item-secondary" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5>6:00 AM</h5>
+              </div>
+              <p class="mb-1" id="user-entry-06"></p>
+              <input type="text" class="form-control" placeholder="" aria-label="" id="input-06">
+              <button class="btn btn-secondary" type="button" id="button-addon-06"><span class="fa fa-edit"></span> | <span class="fa fa-save"></button>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <a class="list-group-item list-group-item-action active list-group-item-secondary" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5>7:00 AM</h5>
+              </div>
+              <p class="mb-1" id="user-entry-07"></p>
+              <input type="text" class="form-control" placeholder="" aria-label="" id="input-07">
+              <button class="btn btn-secondary" type="button" id="button-addon-07"><span class="fa fa-edit"></span> | <span class="fa fa-save"></button>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <a class="list-group-item list-group-item-action active list-group-item-info" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5>8:00 AM</h5>
+              </div>
+              <p class="mb-1" id="user-entry-08"></p>
+              <input type="text" class="form-control" placeholder="" aria-label="" id="input-08">
+              <button class="btn btn-info" type="button" id="button-addon-08"><span class="fa fa-edit"></span> | <span class="fa fa-save"></button>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <a class="list-group-item list-group-item-action active list-group-item-info" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5>9:00 AM</h5>
+              </div>
+              <p class="mb-1" id="user-entry-09"></p>
+              <input type="text" class="form-control" placeholder="" aria-label="" id="input-09">
+              <button class="btn btn-info" type="button" id="button-addon-09"><span class="fa fa-edit"></span> | <span class="fa fa-save"></button>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <a class="list-group-item list-group-item-action active list-group-item-info" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5>10:00 AM</h5>
+              </div>
+              <p class="mb-1" id="user-entry-10"></p>
+              <input type="text" class="form-control" placeholder="" aria-label="" id="input-10">
+              <button class="btn btn-info" type="button" id="button-addon-10"><span class="fa fa-edit"></span> | <span class="fa fa-save"></button>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <a class="list-group-item list-group-item-action active list-group-item-info" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5>11:00 AM</h5>
+              </div>
+              <p class="mb-1" id="user-entry-11"></p>
+              <input type="text" class="form-control" placeholder="" aria-label="" id="input-11">
+              <button class="btn btn-info" type="button" id="button-addon-11"><span class="fa fa-edit"></span> | <span class="fa fa-save"></button>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <a class="list-group-item list-group-item-action active list-group-item-info" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5>12:00 PM</h5>
+              </div>
+              <p class="mb-1" id="user-entry-12"></p>
+              <input type="text" class="form-control" placeholder="" aria-label="" id="input-12">
+              <button class="btn btn-info" type="button" id="button-addon-12"><span class="fa fa-edit"></span> | <span class="fa fa-save"></button>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <a class="list-group-item list-group-item-action active list-group-item-info" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5>1:00 PM</h5>
+              </div>
+              <p class="mb-1" id="user-entry-13"></p>
+              <input type="text" class="form-control" placeholder="" aria-label="" id="input-13">
+              <button class="btn btn-info" type="button" id="button-addon-13"><span class="fa fa-edit"></span> | <span class="fa fa-save"></button>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <a class="list-group-item list-group-item-action active list-group-item-info" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5>2:00 PM</h5>
+              </div>
+              <p class="mb-1" id="user-entry-14"></p>
+              <input type="text" class="form-control" placeholder="" aria-label="" id="input-14">
+              <button class="btn btn-info" type="button" id="button-addon-14"><span class="fa fa-edit"></span> | <span class="fa fa-save"></button>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <a class="list-group-item list-group-item-action active list-group-item-info" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5>3:00 PM</h5>
+              </div>
+              <p class="mb-1" id="user-entry-15"></p>
+              <input type="text" class="form-control" placeholder="" aria-label="" id="input-15">
+              <button class="btn btn-info" type="button" id="button-addon-15"><span class="fa fa-edit"></span> | <span class="fa fa-save"></button>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <a class="list-group-item list-group-item-action active list-group-item-success" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5>4:00 PM</h5>
+              </div>
+              <p class="mb-1" id="user-entry-16"></p>
+              <input type="text" class="form-control" placeholder="" aria-label="" id="input-16">
+              <button class="btn btn-success" type="button" id="button-addon-16"><span class="fa fa-edit"></span> | <span class="fa fa-save"></button>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <a class="list-group-item list-group-item-action active list-group-item-success" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5>5:00 PM</h5>
+              </div>
+              <p class="mb-1" id="user-entry-17"></p>
+              <input type="text" class="form-control" placeholder="" aria-label="" id="input-17">
+              <button class="btn btn-success" type="button" id="button-addon-17"><span class="fa fa-edit"></span> | <span class="fa fa-save"></button>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <a class="list-group-item list-group-item-action active list-group-item-success" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5>6:00 PM</h5>
+              </div>
+              <p class="mb-1" id="user-entry-18"></p>
+              <input type="text" class="form-control" placeholder="" aria-label="" id="input-18">
+              <button class="btn btn-success" type="button" id="button-addon-18"><span class="fa fa-edit"></span> | <span class="fa fa-save"></button>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <a class="list-group-item list-group-item-action active list-group-item-success" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5>7:00 PM</h5>
+              </div>
+              <p class="mb-1" id="user-entry-19"></p>
+              <input type="text" class="form-control" placeholder="" aria-label="" id="input-19">
+              <button class="btn btn-success" type="button" id="button-addon-19"><span class="fa fa-edit"></span> | <span class="fa fa-save"></button>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <a class="list-group-item list-group-item-action active list-group-item-success" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5>8:00 PM</h5>
+              </div>
+              <p class="mb-1" id="user-entry-20"></p>
+              <input type="text" class="form-control" placeholder="" aria-label="" id="input-20">
+              <button class="btn btn-success" type="button" id="button-addon-20"><span class="fa fa-edit"></span> | <span class="fa fa-save"></button>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <a class="list-group-item list-group-item-action active list-group-item-success" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5>9:00 PM</h5>
+              </div>
+              <p class="mb-1" id="user-entry-21"></p>
+              <input type="text" class="form-control" placeholder="" aria-label="" id="input-21">
+              <button class="btn btn-success" type="button" id="button-addon-21"><span class="fa fa-edit"></span> | <span class="fa fa-save"></button>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <a class="list-group-item list-group-item-action active list-group-item-success" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5>10:00 PM</h5>
+              </div>
+              <p class="mb-1" id="user-entry-22"></p>
+              <input type="text" class="form-control" placeholder="" aria-label="" id="input-22">
+              <button class="btn btn-success" type="button" id="button-addon-22"><span class="fa fa-edit"></span> | <span class="fa fa-save"></button>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <a class="list-group-item list-group-item-action active list-group-item-success" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5>11:00 PM</h5>
+              </div>
+              <p class="mb-1" id="user-entry-23"></p>
+              <input type="text" class="form-control" placeholder="" aria-label="" id="input-23">
+              <button class="btn btn-success" type="button" id="button-addon-23"><span class="fa fa-edit"></span> | <span class="fa fa-save"></button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../assets/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,168 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  background-color: snow;
+}
+
+h5 {
+  color: snow;
+}
+
+div.col-lg-12 {
+  margin-bottom: -60px;
+  opacity: 70%;
+}
+
+.list-group-item:hover {
+  transform: scale(1.005);
+  box-shadow: 0 0 40px -10px #212529;
+}
+
+.btn:hover {
+  transform: scale(1.025);
+  box-shadow: 0 0 40px -10px #212529;
+}
+
+#user-entry-00 {
+  color: snow;
+}
+#user-entry-01 {
+  color: snow;
+}
+#user-entry-02 {
+  color: snow;
+}
+#user-entry-03 {
+  color: snow;
+}
+#user-entry-04 {
+  color: snow;
+}
+#user-entry-05 {
+  color: snow;
+}
+#user-entry-06 {
+  color: snow;
+}
+#user-entry-07 {
+  color: snow;
+}
+#user-entry-08 {
+  color: snow;
+}
+#user-entry-09 {
+  color: snow;
+}
+#user-entry-10 {
+  color: snow;
+}
+#user-entry-11 {
+  color: snow;
+}
+#user-entry-12 {
+  color: snow;
+}
+#user-entry-13 {
+  color: snow;
+}
+#user-entry-14 {
+  color: snow;
+}
+#user-entry-15 {
+  color: snow;
+}
+#user-entry-16 {
+  color: snow;
+}
+#user-entry-17 {
+  color: snow;
+}
+#user-entry-18 {
+  color: snow;
+}
+#user-entry-19 {
+  color: snow;
+}
+#user-entry-20 {
+  color: snow;
+}
+#user-entry-21 {
+  color: snow;
+}
+#user-entry-22 {
+  color: snow;
+}
+#user-entry-23 {
+  color: snow;
+}
+
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.btn {
+  float: right;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+/* .description{
+  white-space: pre-wrap;
+} */
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+/* .hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  background-color: #d3d3d3;
+  color: white;
+}
+
+.present {
+  background-color: #ff6961;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+} */
+
+/* .saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+} */
