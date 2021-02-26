@@ -70,7 +70,9 @@ var userEntrySpan23 = document.querySelector("#user-entry-22");
 var editSaveBtn24 = document.querySelector("#button-addon-23");
 var entryInput24 = document.querySelector("#input-23");
 var userEntrySpan24 = document.querySelector("#user-entry-23");
+var currentHour = moment().hour();
 
+callCurrentHour();
 renderEntry();
 renderEntry2();
 renderEntry3();
@@ -95,6 +97,18 @@ renderEntry21();
 renderEntry22();
 renderEntry23();
 renderEntry24();
+
+function callCurrentHour() {
+    $("a").each(function() {
+        var hourId = parseInt($(this).attr("id"));
+ 
+        if($(currentHour).is(hourId)) {
+            $("a").removeClass("active");
+        } else if($(currentHour).not(hourId)); {
+            $("a").addClass("active");
+        }
+    }
+)};
 
 function renderEntry() {
     var input = localStorage.getItem("input-00");
