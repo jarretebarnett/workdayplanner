@@ -1,10 +1,12 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Work Day Planner
 
-Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+## Description
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+The page is a primer for an HTML body filled with time blocks ranging between a typical 9-5 work day. Each individual block is an hour interval, where the user can enter inputs, designating each block for an activity, routine, or goal. Entry is stored and saved in local storage until the user edits the block and resaves.
 
-## User Story
+Using Moment.js, the current day is relayed to the header as a point of reference for the subjective user. The current hour is used to highlight the present time block, while others are left inactive until current.
+
+## Ideal User/User Story
 
 ```
 AS AN employee with a busy schedule
@@ -12,32 +14,12 @@ I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 ```
 
-## Acceptance Criteria
+## Screenshots
 
-```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+The following screenshot demonstrates the current day relay in the page header:
 
-The following animation demonstrates the application functionality:
+![page header screenshot](assetsii/plannerheader.png)
 
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
+The following is a demonstration of the highlighted time block on the current hour using Moment.js:
 
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+![highlighted time block](assetsii/timeblockscreenshot.png)
