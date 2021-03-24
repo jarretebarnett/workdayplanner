@@ -14,16 +14,6 @@ div.col-lg-12 {
   opacity: 70%;
 }
 
-.list-group-item:hover {
-  transform: scale(1.005);
-  box-shadow: 0 0 40px -10px #212529;
-}
-
-.btn:hover {
-  transform: scale(1.025);
-  box-shadow: 0 0 40px -10px #212529;
-}
-
 #user-entry-09 {
   color: snow;
 }
